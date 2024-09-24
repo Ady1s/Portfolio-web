@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px 0;
+}
+
+.star {
+    color: orange;
+    font-size: 24px; /* Velikost hvězdy */
+    margin: 0 15px; /* Mezera okolo hvězdy */
+}
+
+.nav-buttons {
+    display: flex;
+}
+
+.nav-button {
+    background: none;
+    border: none;
+    color: black;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-button:hover {
+    color: orange; /* Změna barvy při najetí */
+}
+
+.main-content {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.main-content h1 {
+    margin: 0;
+    font-size: 36px; /* Velikost nadpisu Visual Designer */
+}
+
+.main-content h2 {
+    margin: 10px 0 30px;
+    font-size: 36px; /* Stejná velikost jako h1 */
+    color: white; /* Stejná barva jako h1 */
+    opacity: 0.7; /* Oproti hlavnímu nadpisu */
+}
+
+.contact-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: darkorange; /* Změna barvy při najetí */
+}
+
+.arrow {
+    margin-left: 10px;
+}
